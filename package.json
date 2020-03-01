@@ -1,0 +1,27 @@
+{
+  "name": "selenium-avast-poc",
+  "version": "1.0.0",
+  "description": "Selenium Avast POC",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node --captureExceptions --requireJsSetup ./spec-requirejs/requirejs-setup.js spec"
+  },
+  "keywords": [
+    "selenium",
+    "test",
+    "automation"
+  ],
+  "author": "Raul Rotundo",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.34.0",
+    "dotenv": "^4.0.0",
+    "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-exec": "^3.0.0",
+    "jasmine": "^2.8.0",
+    "jasmine-node": "^1.14.5"
+  }
+}
