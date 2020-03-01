@@ -19,7 +19,7 @@ npm install -g grunt-cli
 ### Installation
 Clone the repo: 
 ```bash
-git clone https://github.digitalriverws.net/rrotundo/selenium-avast-poc.git
+git clone git@github.com:raulrotundo/selenium-avast-poc.git
 ```
 
 Installing dependencies: 
